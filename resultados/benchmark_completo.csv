@@ -1,0 +1,15 @@
+tamanho,versao,paralelismo,tempo_s,speedup,eficiencia,correto
+500,Sequencial,1,0.229277,1.0000,1.0000,true
+500,Paralela,1,0.208390,1.1002,1.1002,true
+500,Paralela,2,0.113836,2.0141,1.0070,true
+500,Paralela,4,0.078559,2.9185,0.7296,true
+500,Distribuida,1,0.242805,0.9443,0.9443,true
+500,Distribuida,2,0.203921,1.1243,0.5622,true
+500,Distribuida,4,0.225780,1.0155,0.2539,true
+1000,Sequencial,1,0.831544,1.0000,1.0000,true
+1000,Paralela,1,0.813364,1.0224,1.0224,true
+1000,Paralela,2,0.450859,1.8444,0.9222,true
+1000,Paralela,4,0.274639,3.0278,0.7569,true
+1000,Distribuida,1,0.858822,0.9682,0.9682,true
+1000,Distribuida,2,0.559084,1.4873,0.7437,true
+1000,Distribuida,4,0.423866,1.9618,0.4905,true
