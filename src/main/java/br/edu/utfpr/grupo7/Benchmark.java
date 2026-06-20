@@ -53,7 +53,7 @@ public class Benchmark {
         int limiar = args.length > 2 ? Integer.parseInt(args[2]) : 1;
         long semente = args.length > 3 ? Long.parseLong(args[3]) : 42L;
         int reps = args.length > 4 ? Integer.parseInt(args[4]) : 3;
-        int[] tamanhos = args.length > 5 ? Misc.parseInts(args[5]) : new int[]{500, 1000};
+        int[] tamanhos = args.length > 5 ? Misc.parseInts(args[5]) : new int[]{500, 1000, 1500, 2000};
         int[] threads = args.length > 6 ? Misc.parseInts(args[6]) : new int[]{1, 2, 4};
         int[] workers = args.length > 7 ? Misc.parseInts(args[7]) : new int[]{1, 2, 4};
 
